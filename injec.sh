@@ -14,6 +14,9 @@
 ##			-Le temps d'attente entre chaque caractere testé est de 10 secondes, parcourir l'entièreté de la liste est très long
 ##			-Il ne prends pas en charge les caracteres "{" et "}"
 ##
+## Avantage du script :
+## 			-Le script peut s'arreter et reprendre au même endroit sans avoir a recommencer au début grace a la variable "nbcharaflag".
+##
 ## Auteur : Logan
 ## Date de création du script : 28/11/2025
 ## Date de finalisation du script : 02/12/2025
@@ -59,6 +62,7 @@ done
 
 echo "$(cat flagfinal.txt | tr -d '\n')}" #Pour finir, on affiche le contenu du fichier "finalflag.txt" et on ajoute a la fin de celui ci un "}"
 #Ce qui affiche Flag{IJC-f4aa8796863a8451ed6eee91761792a0}
+
 
 
 
